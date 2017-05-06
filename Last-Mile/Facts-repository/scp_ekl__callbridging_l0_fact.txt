@@ -1,3 +1,5 @@
+-- Testing Git
+
 INSERT OVERWRITE TABLE callbridging_l0_fact 
 select distinct  Interaction.`data`.interactionid,
 Interaction.`data`.interactioncategory,
